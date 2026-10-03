@@ -1,0 +1,53 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-error.log*
+.pnpm-store/
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+env/
+*.egg-info/
+.pytest_cache/
+
+# Java / Kotlin
+target/
+build/
+*.class
+.gradle/
+
+# Go
+bin/
+*.exe
+
+# Прочее
+.env
+.env.local
+dist/
+*.log
+
+# === Gradle ===
+.gradle/
+build/
+**/build/
+!src/**/build/
+
+# Кэш и настройки Gradle
+.gradletasknamecache
+gradle-app.setting
+
+# ВАЖНО: НЕ игнорировать Gradle Wrapper
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
